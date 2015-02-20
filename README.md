@@ -1,11 +1,11 @@
-Synopsis
+#Synopsis
 The application is a SWING based Java standalone desktop application which is used for the following functionalities
 1. Upload files to user's drop box account.
 2. Download files from user's drop box account.
 3. Delete files from user's drop box account.
 4. Sync folders in PC with the drop box account.
 
-Code Example
+#Code Example
 App.java 
 Initiates the application, 
 First time users are redirected to user's dropbox online account to provide Access Permission to the Application.
@@ -20,14 +20,14 @@ Event listeners for button events of upload, download, delete and sync files and
 FileListener.java
 Folder syncer class to listen for file change events.
 
-Motivation
+#Motivation
 Started this project to get my hands dirty on Java Swing and Drop Box API. Felt the need for synchronizing more than one folder in computer
 In Existing drop box account only one folder can be synchronized with the drop box account. 
 
-Installation
+#Installation
 Import the entire files into eclipse
 
-API Reference
+#API Reference
 Drop Box API
 Apache FileAlteration Monitor
 
